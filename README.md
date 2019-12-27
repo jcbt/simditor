@@ -1,11 +1,6 @@
 laravel-admin extension
 ======
 
-## 安装
-```
-php artisan vendor:publish --provider=Jcbt\Simditor\SimditorServiceProvider
-```
-
 ## 包含官方扩展
 
 - simditor-html
@@ -19,8 +14,16 @@ php artisan vendor:publish --provider=Jcbt\Simditor\SimditorServiceProvider
 
 - simditor-fullscreen
 
+## 安装
+
+```
+$ composer require jcbt/simditor
+$ php artisan vendor:publish --provider="Jcbt\Simditor\SimditorServiceProvider"
+```
 
 ## 配置
+
+在 `config/admin.php` 的 `extensions` 中加入以下配置
 ```
 'simditor' => [
     // Set to false if you want to disable this extension
