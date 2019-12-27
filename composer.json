@@ -1,14 +1,14 @@
 {
     "name": "jcbt/simditor",
-    "description": "description...",
+    "description": "Integrates simditor into Laravel-admin",
     "type": "library",
-    "keywords": ["laravel-admin", "extension"],
+    "keywords": ["laravel-admin", "extension", "simditor"],
     "homepage": "https://github.com/jcbt/simditor",
     "license": "MIT",
     "authors": [
         {
-            "name": "your name",
-            "email": "your email"
+            "name": "gaowei",
+            "email": "admin@gaowei.co"
         }
     ],
     "require": {
