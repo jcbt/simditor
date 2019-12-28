@@ -4,6 +4,7 @@ laravel-admin extension
 ## 包含官方扩展
 
 - simditor-html
+- simditor-markdown
 
 
 ## 包含第三方扩展
@@ -39,7 +40,7 @@ $ php artisan vendor:publish --provider="Jcbt\Simditor\SimditorServiceProvider"
         'tabIndent' => true,
         'toolbar' => ['title', 'bold', 'italic', 'underline', 'strikethrough', 'fontScale', 'color', '|', 'ol',
             'ul', 'blockquote', 'code', 'table', '|', 'link', 'image', 'hr', '|', 'indent', 'outdent',
-            'alignment', '|', 'html', 'fullscreen', 'marked'],
+            'alignment', '|', 'html', 'fullscreen', 'marked', 'markdown'],
         'toolbarFloat' => true,
         'toolbarFloatOffset' => 0,
         'toolbarHidden' => false,

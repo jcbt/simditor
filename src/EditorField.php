@@ -11,7 +11,8 @@ class EditorField extends Field
     protected static $css = [
         '/vendor/jcbt/simditor/simditor.css',
         '/vendor/jcbt/simditor/simditor-html.css',
-        '/vendor/jcbt/simditor/simditor-fullscreen.css'
+        '/vendor/jcbt/simditor/simditor-fullscreen.css',
+        '/vendor/jcbt/simditor/simditor-markdown.css',
     ];
 
     protected static $js = [
@@ -25,6 +26,9 @@ class EditorField extends Field
         '/vendor/jcbt/simditor/simditor-fullscreen.js',
         '/vendor/jcbt/simditor/marked.js',
         '/vendor/jcbt/simditor/simditor-marked.js',
+        '/vendor/jcbt/simditor/marked.js',
+        '/vendor/jcbt/simditor/to-markdown.js',
+        '/vendor/jcbt/simditor/simditor-markdown.js'
 
     ];
 
